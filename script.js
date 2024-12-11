@@ -15,3 +15,5 @@ class Player {
     ctx.drawImage(this.image, this.x, this.y, this.width, this.height);
   }
 }
+const player1 = new Player(100, HEIGHT / 2 - 20, 'red', 'red.png');
+const player2 = new Player(WIDTH - 140, HEIGHT / 2 - 20, 'blue', 'blue.png');
